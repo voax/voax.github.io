@@ -50,6 +50,7 @@ h1 {
     font-weight: normal;
     font-style: normal;
     margin: 0 0 25px;
+    text-transform: lowercase;
 }
 h2 {
     text-align: center;
