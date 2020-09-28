@@ -1,6 +1,6 @@
 {
-    "name": "VOAX",
-    "short_name": "VOAX",
+    "name": "voax",
+    "short_name": "voax",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

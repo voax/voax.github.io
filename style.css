@@ -1,11 +1,23 @@
 @font-face {
     font-family: 'Azonix';
-    src: url('fonts/AzonixRegular.eot');
-    src: url('fonts/AzonixRegular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AzonixRegular.woff2') format('woff2'),
-        url('fonts/AzonixRegular.woff') format('woff'),
-        url('fonts/AzonixRegular.ttf') format('truetype'),
-        url('fonts/AzonixRegular.svg#AzonixRegular') format('svg');
+    src: url('fonts/Azonix/AzonixRegular.eot');
+    src: url('fonts/Azonix/AzonixRegular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Azonix/AzonixRegular.woff2') format('woff2'),
+        url('fonts/Azonix/AzonixRegular.woff') format('woff'),
+        url('fonts/Azonix/AzonixRegular.ttf') format('truetype'),
+        url('fonts/Azonix/AzonixRegular.svg#AzonixRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'voax';
+    src: url('fonts/voax/voaxRegular.eot');
+    src: url('fonts/voax/voaxRegular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/voax/voaxRegular.woff2') format('woff2'),
+        url('fonts/voax/voaxRegular.woff') format('woff'),
+        url('fonts/voax/voaxRegular.ttf') format('truetype'),
+        url('fonts/voax/voaxRegular.svg#voaxRegular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,9 +30,7 @@ body {
     margin: 0;
     background: #fec629;
     color: #000000;
-    font-family: 'Azonix';
-    font-weight: normal;
-    font-style: normal;
+
 }
 .content {
     position: absolute;
@@ -35,11 +45,17 @@ body {
 }
 h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 96px;
+    font-family: 'voax';
     font-weight: normal;
+    font-style: normal;
+    margin: 0 0 25px;
 }
 h2 {
     text-align: center;
     font-size: 28px;
+    font-family: 'Azonix';
     font-weight: normal;
+    font-style: normal;
+    margin: 0;
 }
